@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #faf7f2;
+    color: #333;
+    text-align: center;
+}
+
+/* Accueil */
+.hero {
+    padding: 60px 20px;
+    background: #f4e9dc;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.subtitle {
+    margin-top: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    padding: 40px;
+    background: white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* Zone dynamique */
+#page {
+    min-height: 100vh;
+}
+
+/* Glassmorphisme */
+.glass-page {
+    height: 100vh;
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+/* Parallaxe */
+.parallax-page {
+    height: 100vh;
+    background-image: url("https://picsum.photos/1200/800");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    padding: 50px;
+    color: white;
+}
+
+/* 3D */
+.strict3d-page {
+    height: 100vh;
+    background: crimson;
+    color: white;
+    box-shadow: 20px 20px 0 black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Couleurs vives */
+.vives-page {
+    height: 100vh;
+    background: yellow;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Brutalism */
+.brutalism-page {
+    height: 100vh;
+    background: white;
+    border: 8px solid black;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Design engagé */
+.engage-page {
+    height: 100vh;
+    background: darkgreen;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
